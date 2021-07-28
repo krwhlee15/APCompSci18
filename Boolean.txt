@@ -1,0 +1,16 @@
+A <-> not A
+&& =and
+|| = or
+! = not
+
+A	B	A or B		not(A or B)		(not A) and (not B)
+F	F	F		T			T
+F	T	T		F			F
+T	F	T		F			F
+T	T	T		F			F
+
+not (A or B) = (not A) and (not B)
+not (A and B) = (not A) or (not B)
+!(A || B) = (!A) && (!B)
+!(A && B) = (!A) || (!B)
+

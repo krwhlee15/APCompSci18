@@ -1,0 +1,5 @@
+Boolean operations/expressions etc.
+==, <, <=, >, >=
+ !(not)
+&&(and)
+||(or)
